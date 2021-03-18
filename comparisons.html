@@ -8,33 +8,65 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar justify-content-end" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="https://bthuynh.github.io/Web-Design-Challenge/index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav m1-auto">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="temperature.html">Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                <a class="dropdown-item" href="https://bthuynh.github.io/Web-Design-Challenge/temperature.html">Max Temperature</a>
+                <a class="dropdown-item" href="https://bthuynh.github.io/Web-Design-Challenge/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="https://bthuynh.github.io/Web-Design-Challenge/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="https://bthuynh.github.io/Web-Design-Challenge/windspeed.html">Wind Speed</a>
               </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparisons.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
-          </ul>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://bthuynh.github.io/Web-Design-Challenge/comparisons.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://bthuynh.github.io/Web-Design-Challenge/data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="jumbotron">
+              <h1 id="jumbotron-h1" class="display-4">Comparison Latitude vs X</h1>
+                <hr class="my-3">
+                  <p style="font-size: 10pt;">Click an image for in-depth analysis</p>
+                            <div class="row">
+                              <figure class="col-sm-12 col-md-6">
+                                  <h3>vs. Max Temperature</h3>
+                                  <a href="https://bthuynh.github.io/Web-Design-Challenge/temperature.html"><img class="img-fluid rounded" src="https://bthuynh.github.io/Web-Design-Challenge/assets/images/Fig1.png" alt="Latitude vs Max Temp"></a>    
+                              </figure>
+                              <figure class="col-sm-12 col-md-6">
+                                  <h3>vs. Humidity</h3>
+                                  <a href="https://bthuynh.github.io/Web-Design-Challenge/humidity.html"><img class="img-fluid rounded" src="https://bthuynh.github.io/Web-Design-Challenge/assets/images/Fig2.png" alt="Latitude vs Humidity"></a>
+                              </figure>
+                              <figure class="col-sm-12 col-md-6">
+                                  <h3>vs. Cloudiness</h3>
+                                  <a href="https://bthuynh.github.io/Web-Design-Challenge/cloudiness.html"><img class="img-fluid rounded" src="https://bthuynh.github.io/Web-Design-Challenge/assets/images/Fig3.png" alt="Latitude vs Cloudiness"></a>
+                              </figure>
+                              <figure class="col-sm-12 col-md-6">
+                                  <h3>vs. Wind Speed</h3>
+                                  <a href="https://bthuynh.github.io/Web-Design-Challenge/windspeed.html"><img class="img-fluid rounded" src="https://bthuynh.github.io/Web-Design-Challenge/assets/images/Fig4.png" alt="Latitude vs Wind Speed"></a>   
+                              </figure>
+                            </div>
+             </div>
+          </div>
         </div>
-      </nav>
+       </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
